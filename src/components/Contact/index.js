@@ -20,7 +20,7 @@ const Contact = () => {
     e.preventDefault()
 
     emailjs
-      .sendForm('gmail', 'template_3755qqw', form.current, 'ltTyWNntrdq9mlHjb')
+      .sendForm('gmail', 'template_vzc832s', form.current, 'AaUOgl-CBh7rg9Hnm')
       .then(
         () => {
           alert('Message successfully sent!')
@@ -85,22 +85,21 @@ const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-          Bhiwandi 421305,
+          padma nagar, nr, akhila padmashali sanskriti bhavan, 
           <br />
-          Thane,
+          bhiwandi,thane - 421305. <br />
           <br />
-          Evergreen apartment 2nd floor , 301 <br />
-          padmanagar <br />
-          <br />
-          <span>samnalaharish25@gmail.com</span>
+          <span>samalaharish25@gmail.com</span>
         </div>
         <div className="map-wrap">
-          <MapContainer center={[44.96366, 19.61045]} zoom={13}>
+          <MapContainer center={[19.285600500363046, 73.05898044494289]} zoom={15}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[44.96366, 19.61045]}>
-              <Popup>Sloba lives here, come over for a cup of coffee :)</Popup>
+            <Marker position={[19.285600500363046, 73.05898044494289]}>
+              <Popup>Harinath lives here, come over for a cup of coffee :)</Popup>
             </Marker>
           </MapContainer>
+
+          
         </div>
       </div>
       <Loader type="pacman" />
