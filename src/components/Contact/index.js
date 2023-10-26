@@ -85,7 +85,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-          padma nagar, nr, akhila padmashali sanskriti bhavan, 
+          Padma nagar, nr, akhila padmashali sanskriti bhavan, 
           <br />
           bhiwandi,thane - 421305. <br />
           <br />
@@ -98,8 +98,6 @@ const Contact = () => {
               <Popup>Harinath lives here, come over for a cup of coffee :)</Popup>
             </Marker>
           </MapContainer>
-
-          
         </div>
       </div>
       <Loader type="pacman" />
